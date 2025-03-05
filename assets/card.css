@@ -1,0 +1,86 @@
+body{
+    background-color: white ;
+    margin : 0;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    position:relative;
+}
+.card {
+    width:350px;
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    border-radius :20px;
+    gap: 20px;
+    background: white;
+    
+    
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.image-container {
+    width: 200px;
+    height:300px;
+    border-radius: 40px;
+    overflow:hidden;
+    display:flex;
+    justify-content:center;
+}
+.image-container img{
+    width: 100px;
+            border-radius: 10px;
+}
+
+.info {
+    width: 100px;
+    font-size: 16px;
+    color: #7a4a24;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+h2 {
+    display:flex;
+    margin: 0;
+    font-size: 24px;
+    color: #5c3d1e;
+    flex-direction:row;
+}
+
+.price {
+    font-size: 20px;
+    font-weight: bold;
+    color: #d89c24;
+}
+
+.add-to-cart {
+    background-color: #d89c24;
+    color: #f8f0e3;
+    border-radius: 50px; /* Ovale */
+    padding: 10px 15px;
+    font-size: 16px;
+    width: 180px;
+    height:50px;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: 10px;
+
+}
+
+.add-to-cart:hover {
+    background-color: #b37d1b;
+}
+h1 {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 35px;
+    color: black;
+    margin: 0;
+}

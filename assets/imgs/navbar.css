@@ -1,0 +1,46 @@
+body{
+    background-color: white ;
+    margin : 0;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    position:relative;
+}
+.contenitore-nav {
+    width: 100%;  /* Puoi impostare una larghezza fissa o un valore percentuale */
+    max-width: 1200px;  /* Imposta una larghezza massima, se desiderato */
+    margin: 0 auto;  /* Centra il contenitore */
+    padding: 20px;  /* Padding del contenitore */
+  }
+  
+  nav {
+    background-color: #333;  /* Colore di sfondo per la barra di navigazione */
+    padding: 10px;  /* Padding attorno al contenuto del nav */
+  }
+  
+  .lista-bottoni-nav {
+    list-style-type: none;  /* Rimuove i punti elenco */
+    padding: 0;
+    margin: 0;
+    display: flex;  /* Dispone gli elementi in orizzontale */
+    justify-content: space-around;  /* Spazio uguale tra i bottoni */
+  }
+  
+  .lista-bottoni-nav li {
+    margin: 0 10px;  /* Distanza tra i bottoni */
+  }
+  
+  .lista-bottoni-nav button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: lightblue;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .lista-bottoni-nav button:hover {
+    background-color: lightcoral;
+  }
